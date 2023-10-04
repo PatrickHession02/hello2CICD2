@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class RequestController {
     @GetMapping("/hello")
     public String hello() {
-        return "Hello!";
+        return "Hello!"; //Returns hello String
+   master
     }
 
     @GetMapping("/greet/{name}") //maps the user entered name to the output
